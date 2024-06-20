@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: vivatriado/my-first-javascript-action@v1.4
+        uses: vivatriado/my-first-javascript-action@v1.5
         with:
           who-to-greet: 'Joe Bloggs'
       # Use the output from the `hello` step
